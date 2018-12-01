@@ -1,0 +1,15 @@
+/**
+ * Editor styles for the admin
+ */
+
+.geb-block-iconbox {
+    margin-bottom: 0;
+}
+
+.editor-block-list__layout [data-type="guteneditorblocks/geb-iconbox"] {
+    margin-bottom: 1.2em;
+}
+
+.geb-block-iconbox h3.editor-rich-text__tinymce.mce-content-body {
+    line-height: 1.2;
+}

@@ -1,0 +1,250 @@
+/**
+ * Imagebox styles
+ * Loads on front end and back end
+ */
+
+ .geb-block-imagebox {
+	margin: 0 0 1.2em 0;
+	position: relative;
+	color: #293038;
+	padding: 15px;
+	border-style: solid;
+	
+	.components-autocomplete {
+		display: inline-block;
+		width: auto;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.geb-imagebox-image-wrap {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.geb-imagebox-image {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+		transition: .3s ease;
+	}
+
+	.geb-imagebox-title {
+		display: inline-block;
+		width: 100%;
+		margin: 10px 0;
+		padding: 0;
+		line-height: 1.2;
+	}
+
+	.geb-imagebox-content {
+		padding-left: 7px;
+		overflow: hidden;
+
+		p {
+			color: inherit;
+			margin-bottom: 10px;
+		}
+
+		a {
+			color: inherit;
+			box-shadow: 0 -1px 0 inset;
+			text-decoration: none;
+
+			&:hover {
+				color: inherit;
+				box-shadow: 0 -2px 0 inset;
+			}
+		}
+	}
+
+	.geb-imagebox-title:empty,
+	.geb-imagebox-content:empty {
+		display: none;
+	}
+
+	.geb-font-size-24.geb-imagebox-title {
+		font-size: 24px;
+	}
+  
+	.geb-font-size-26.geb-imagebox-title {
+		font-size: 26px;
+	}
+
+	.geb-font-size-28.geb-imagebox-title {
+		font-size: 28px;
+	}
+
+	.geb-font-size-30.geb-imagebox-title {
+		font-size: 30px;
+	}
+
+	.geb-font-size-32.geb-imagebox-title {
+		font-size: 32px;
+	}
+
+	.geb-font-size-34.geb-imagebox-title {
+		font-size: 34px;
+	}
+
+	.geb-font-size-36.geb-imagebox-title {
+		font-size: 36px;
+	}
+
+	.geb-font-size-38.geb-imagebox-title {
+		font-size: 38px;
+	}
+
+	.geb-font-size-40.geb-imagebox-title {
+		font-size: 40px;
+	}
+
+	.geb-font-size-42.geb-imagebox-title {
+		font-size: 42px;
+	}
+
+	.geb-font-size-44.geb-imagebox-title {
+		font-size: 44px;
+	}
+
+	.geb-font-size-46.geb-imagebox-title {
+		font-size: 46px;
+	}
+
+	.geb-font-size-48.geb-imagebox-title {
+		font-size: 48px;
+	}
+
+	.geb-font-size-50.geb-imagebox-title {
+		font-size: 50px;
+	}
+
+	.geb-font-size-52.geb-imagebox-title {
+		font-size: 52px;
+	}
+
+	.geb-font-size-54.geb-imagebox-title {
+		font-size: 54px;
+	}
+
+	.geb-font-size-56.geb-imagebox-title {
+		font-size: 56px;
+	}
+
+	.geb-font-size-58.geb-imagebox-title {
+		font-size: 58px;
+	}
+
+	.geb-font-size-60.geb-imagebox-title {
+		font-size: 60px;
+	}
+	
+	.geb-font-size-14.geb-imagebox-des p {
+		font-size: 14px;
+	}
+  
+	.geb-font-size-16.geb-imagebox-des p {
+		font-size: 16px;
+	}
+
+	.geb-font-size-18.geb-imagebox-des p {
+		font-size: 18px;
+	}
+
+	.geb-font-size-20.geb-imagebox-des p {
+		font-size: 20px;
+	}
+
+	.geb-font-size-22.geb-imagebox-des p {
+		font-size: 22px;
+	}
+
+	.geb-font-size-24.geb-imagebox-des p {
+		font-size: 24px;
+	}
+
+	.geb-imagebox-image:not(.has-background-dim) {
+		opacity: 0;
+	}
+	
+	.fa-1x {
+	  font-size: 1em; }
+
+	.fa-2x {
+	  font-size: 2em; }
+
+	.fa-3x {
+	  font-size: 3em; }
+
+	.fa-4x {
+	  font-size: 4em; }
+
+	.fa-5x {
+	  font-size: 5em; }
+
+	.fa-6x {
+	  font-size: 6em; }
+
+	.fa-7x {
+	  font-size: 7em; }
+
+	.fa-8x {
+	  font-size: 8em; }
+
+	.fa-9x {
+	  font-size: 9em; }
+
+	.fa-10x {
+	  font-size: 10em; }
+
+	.has-background-dim {
+		opacity: .5;
+	}
+
+	.has-background-dim-10 {
+		opacity: .1;
+	}
+
+	.has-background-dim-20 {
+		opacity: .2;
+	}
+
+	.has-background-dim-30 {
+		opacity: .3;
+	}
+	
+	.has-background-dim-40 {
+		opacity: .4;
+	}
+
+	.has-background-dim-50 {
+		opacity: .5;
+	}
+
+	.has-background-dim-60 {
+		opacity: .6;
+	}
+
+	.has-background-dim-70 {
+		opacity: .7;
+	}
+
+	.has-background-dim-80 {
+		opacity: .8;
+	}
+
+	.has-background-dim-90 {
+		opacity: .9;
+	}
+
+	.has-background-dim-100 {
+		opacity: 1;
+	}
+	.geb-imagebox-img {
+	    display: inline-block;
+	}
+}

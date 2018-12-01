@@ -1,0 +1,27 @@
+/**
+ * Editor styles for the admin
+ */
+
+.geb-block-cta {
+    margin-bottom: 0;
+}
+
+ .geb-cta-button {
+    .blocks-button__inline-link .editor-url-input {
+        display: inline-block;
+        width: auto;
+    }
+
+    .blocks-button__inline-link .components-button {
+        display: inline-block;
+    }
+
+    .blocks-button__inline-link svg {
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+}
+
+.geb-block-cta h2.editor-rich-text__tinymce.mce-content-body {
+    line-height: 1.2;
+}
